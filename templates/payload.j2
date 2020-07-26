@@ -1,0 +1,17 @@
+{
+        "Changes": [
+            {
+                "Action": "UPSERT", 
+                "ResourceRecordSet": {
+                    "Name": "{{ fqdn }}", 
+                    "Type": "A", 
+                    "TTL": 60, 
+                    "ResourceRecords": [
+                        {
+                            "Value": "{{ public_ip }}"
+                        }
+                    ] 
+                }
+            }
+        ]
+}

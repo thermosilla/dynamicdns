@@ -1,0 +1,4 @@
+python-decouple
+boto3
+urllib3
+jinja2
